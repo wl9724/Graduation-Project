@@ -1,0 +1,28 @@
+<!-- textages/usercenter/usercenter.wxml -->
+<view>
+
+  <!-- 如果只是展示用户头像昵称，可以使用 <otexten-data /> 组件 -->
+  <view class="userinfo">
+    <view class="userinfo-avatar">
+    </view>
+    <view hidden='{{islogin}}'>
+      <text bindtap='gotologin'>登陆/注册</text>
+    </view>
+    <text>{{username}}</text>
+  </view>
+
+  <view class="weui-cells__title">个人设置</view>
+  <view class="weui-cells">
+    <view class="weui-cell weui-cell_access" bindtap="update">
+      <view class="weui-cell__bd">
+        <text>修改个人信息</text>
+      </view>
+      <view class="weui-cell__ft">
+      </view>
+    </view>
+  </view>
+
+  <view hidden="{{isoffline}}">
+    <button bindtap="offline">退出登录</button>
+  </view>
+</view>

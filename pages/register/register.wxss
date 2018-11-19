@@ -1,0 +1,59 @@
+/* pages/register/register.wxss */
+page {
+  font-size: 30rpx;
+}
+
+input:hover {
+  border-bottom: 2px solid #ddd;
+}
+
+button:active {
+  opacity: 0.7;
+}
+
+.container-info {
+  padding: 5%;
+}
+
+.man-form-info {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.man-form-info .username, .man-form-info .password, .man-form-info .phone, .man-form-info .email{
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  margin-top: 2%;
+}
+
+.man-form-info input {
+  width: 100%;
+  border-bottom: 1px solid #ddd;
+}
+
+
+.pact {
+  border-bottom: 1px solid #ddd;
+}
+
+.submit-form-info {
+  display: flex;
+  justify-content: center;
+}
+
+.submit-form-info button {
+  background-color:green;
+  width: 80%;
+  margin: 3% 0;
+}
+.reset {
+  display: flex;
+  justify-content: center;
+}
+.reset button {
+  background-color:#fff;
+  width: 80%;
+  margin: 3% 0;
+}

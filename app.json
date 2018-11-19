@@ -1,12 +1,15 @@
 {
-  "pages":[
-    "pages/index/index",
-    "pages/logs/logs"
+  "pages": [
+    "pages/usercenter/usercenter",
+    "pages/login/login",
+    "pages/logs/logs",
+    "pages/update/update",
+    "pages/register/register"
   ],
-  "window":{
-    "backgroundTextStyle":"light",
+  "window": {
+    "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "WeChat",
-    "navigationBarTextStyle":"black"
+    "navigationBarTitleText": "用户中心",
+    "navigationBarTextStyle": "black"
   }
 }

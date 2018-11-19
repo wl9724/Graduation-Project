@@ -1,0 +1,37 @@
+<!--pages/register/register.wxml-->
+<!--pages/update/update.wxml-->
+<view class="weui-cells__title">注册</view>
+<form bindsubmit='submitForm'>
+    <view class="container">
+      <view class='container-info'>
+        <view class="man-form-info">
+          <view class='username'>
+            <text>用户名</text>
+            <input placeholder='请输入用户名' type='text' name='username'></input>
+          </view>
+          <view class='password'>
+            <text>密码</text>
+            <input placeholder='请输入密码' type='password' name='password'></input>
+          </view>
+          <view class='phone'>
+            <text>电话</text>
+            <input placeholder='请输入电话' type='' name='phone'></input>
+          </view>
+          <view class='email'>
+            <text>邮箱</text>
+            <input placeholder='请输入邮箱' type='' name='email'></input>
+          </view>
+        </view>
+      </view>
+
+      <view class='submit-form-info'>
+        <button form-type='submit'>注册</button>
+      </view>
+
+      <view class='reset'>
+        <button bindtap='reset'>取消</button>
+      </view>
+
+
+    </view>
+  </form>
